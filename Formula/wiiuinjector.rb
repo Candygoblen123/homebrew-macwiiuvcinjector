@@ -5,6 +5,7 @@ class Wiiuinjector < Formula
   sha256 "da20d172d7bc13f8b95a22b8efb3dc762b2d79ee8253bd25fa440b77e1c370fc"
 
   depends_on "candygoblen123/macwiiuvcinjector/retroinject"
+  depends_on "candygoblen123/macwiiuvcinjector/wiiurpxtool"
 
   def install
     system "mv", "injector.sh", "wiiuinjector"
