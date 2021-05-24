@@ -5,7 +5,7 @@ class Wiiuinjector < Formula
   sha256 "961b99d87d65100aed3dfee20df8f047b08b66aab57922ae28c3e6cae31a33c0"
   version "0.2.0"
 
-  depends_on :java
+  depends_on "java"
 
   def install
       mv "Products/usr/local/bin/injector", "Products/usr/local/bin/wiiuinjector"
